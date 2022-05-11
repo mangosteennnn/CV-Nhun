@@ -76,12 +76,6 @@ font-weight: 600;
 line-height: 1.2em;
 }
 
-.profile h3 span 
-{
-line-height: 10px;
-font-size: 1.0em;
-font-weight: 300;
-}
 
 .contactin4
 {
@@ -118,36 +112,21 @@ cursor: pointer;
 display: inline-block;
 width: 30px;
 font-size: 20px;
-color: rgb(47, 132, 201);
+color: rgb(47, 201, 116);
 }
 
 .contactin4.skill span
 {
 font-size: 20px;
 }
+.contactin4.skill ul li span
+{
+display: flexbox;
+}
 .contactin4 ul li span
 {
 color: #fff;
 font-weight: 300;
-}
-
-.contactin4.skill .percent
-{
-position: relative;
-width: 100%;
-height: 6px;
-background: rgba(44, 46, 33, 0.541) ;
-display: block;
-margin-top: 5px;
-}
-
-.contactin4.skill .percent div
-{
-position: absolute;
-left: 0;
-top: 0;
-height: 100%;
-background: #1276d3;
 }
 
 .fab{
